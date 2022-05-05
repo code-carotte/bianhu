@@ -3,7 +3,6 @@ module.exports = {
     devServer: {
         // host: 'localhost',
         // port: 8080,
-        // 代理解决跨域 相当于是使用 http://localhost:8080 代理了 http://api.vikingship.xyz
         proxy: {
             '/api': {
                 // 目标路径 
@@ -18,5 +17,3 @@ module.exports = {
         }
     }
 } 
-// axios.get('http://localhost:8080/api/columns') OK
-// axios.get('/api/columns') OK
