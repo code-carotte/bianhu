@@ -9,7 +9,7 @@ module.exports = {
                 target: 'http://api.vikingship.xyz/api',
                 // 允许跨域 
                 changeOrigin: true,
-                // 重写路径 使用 api 代替了 http://api.vikingship.xyz/api
+                // 重写路径 
                 pathRewrite: {
                     '^/api': ''
                 }
